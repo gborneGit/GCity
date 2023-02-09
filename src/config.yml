@@ -1,0 +1,47 @@
+# Nom du monde des villes
+world: 'world_city'
+
+# Nombre de collaborateurs maximum
+max_collaborators: 5
+
+# Profondeur de parcelle
+plot_depth: 10
+
+# Coefficient de vente (0.5 pour une parcelle de 1000$ enverras 500$ au joueur)
+sell_coef: 0.5
+
+# Améliorations de parcelles
+upgrade:
+  chest:
+    default: 2
+    '1':
+      price: 500
+      quantity: 4
+    '2':
+      price: 1000
+      quantity: 6
+    '3':
+      price: 2000
+      quantity: 10
+  height:
+    default: 10
+    '1':
+      price: 500
+      quantity: 20
+    '2':
+      price: 1000
+      quantity: 30
+    '3':
+      price: 2000
+      quantity: 40
+  armor_stand:
+    default: 1
+    '1':
+      price: 500
+      quantity: 2
+    '2':
+      price: 1000
+      quantity: 3
+    '3':
+      price: 2000
+      quantity: 4

@@ -1,0 +1,47 @@
+city1:
+  name: 'Maria'
+  icon: 'GRASS_BLOCK'
+  price: 50
+  cord1: -300,0,400
+  cord2: 300,0,-400
+  spawn: 6.96,82,151
+  plots:
+    1:
+      player: 'Aang'
+      cord1: 1,82,5
+      cord2: 3,82,9
+      collaborators:
+      - 'Tylee'
+      - 'Gregooz'
+      upgrade:
+        chest: 0
+        height: 0
+        armor_stand: 0
+    2:
+      player: 'Tylee'
+      cord1: 5,82,5
+      cord2: 9,82,9
+      collaborators:
+      - 'Aang'
+      - 'Gregooz'
+      upgrade:
+        chest: 0
+        height: 0
+        armor_stand: 0
+    3:
+      player:
+      cord1: 12,82,5
+      cord2: 20,82,9
+      collaborators:
+      upgrade:
+        chest: 0
+        height: 0
+        armor_stand: 0
+city2:
+  name: 'Vulcania'
+  icon: 'BRICKS'
+  price: 100
+  cord1: 1000,0,1000
+  cord2: 1500,0,1500
+  spawn: 1000,1000,0
+  plots:
